@@ -1,0 +1,39 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+
+# Raw sequencing data
+data/fastq/
+data/trimmed/
+data/sra/
+
+# Reference genome and annotation
+data/reference/*.fa
+data/reference/*.fa.gz
+data/reference/*.gtf
+data/reference/*.gtf.gz
+
+# STAR genome index
+data/reference/star_index/
+
+# Alignment files
+alignment/*.bam
+alignment/*.bai
+
+# Large FastQC files
+qc/fastqc_raw/*.zip
+qc/fastqc_raw/*.html
+qc/fastqc_trimmed/*.zip
+qc/fastqc_trimmed/*.html
+
+# Count files
+counts/gene_counts.txt
+counts/gene_counts.txt.summary
+
+# Temporary files
+*.tmp
+*.log
+fasterq.tmp.*/
+# MultiQC generated data
+**/multiqc_data/
